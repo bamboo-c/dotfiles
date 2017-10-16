@@ -1,0 +1,709 @@
+# この viminfo ファイルは Vim 8.0 によって生成されました.
+# 変更する際には十分注意してください!
+
+# Viminfo version
+|1,4
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/file
+
+# 最後の Substitute 検索パターン:
+~MSle0&thee
+
+# 最後に置換された文字列:
+$
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
+|2,0,1508073418,,"wq"
+:VimFiler
+|2,0,1508070638,,"VimFiler"
+:VimFilerF
+|2,0,1508070632,,"VimFilerF"
+:vimfiler
+|2,0,1508070607,,"vimfiler"
+:NeoBundleInstall
+|2,0,1508070586,,"NeoBundleInstall"
+:help i
+|2,0,1508070177,,"help i"
+:help 
+|2,0,1508070035,,"help "
+:q
+|2,0,1508069936,,"q"
+:w
+|2,0,1508067266,,"w"
+:go get github.com/mattn/memo
+|2,0,1508065740,,"go get github.com/mattn/memo"
+:kobit
+|2,0,1508064754,,"kobit"
+:kobito
+|2,0,1508064749,,"kobito"
+:nohlsearch
+|2,0,1508053198,,"nohlsearch"
+:set hls is
+|2,0,1508053168,,"set hls is"
+:set ic
+|2,0,1508053142,,"set ic"
+:!ls
+|2,0,1508049872,,"!ls"
+:s/thee/the/g
+|2,0,1508049602,,"s/thee/the/g"
+:s/thee/the
+|2,0,1508049548,,"s/thee/the"
+:s/old/new/g
+|2,0,1508049523,,"s/old/new/g"
+:hel
+|2,0,1508055723,,"hel"
+:0;0t
+|2,0,1508055619,,"0;0t"
+:95;0c
+|2,0,1508055616,,"95;0c"
+:wq!
+|2,0,1508047355,,"wq!"
+:q!
+|2,0,1508036892,,"q!"
+:BundleInstall
+|2,0,1508033065,,"BundleInstall"
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+? \s\+$
+|2,1,1508073418,,"\\s\\+$"
+?/file
+|2,1,1508070104,47,"file"
+?/ls
+|2,1,1508066284,47,"ls"
+?/ignore
+|2,1,1508053113,47,"ignore"
+? thee
+|2,1,1508049602,,"thee"
+? old
+|2,1,1508049523,,"old"
+?/error
+|2,1,1508049364,47,"error"
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# デバッグ行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+"0	CHAR	0
+	.expand('%:p'))ct
+|3,0,0,0,1,0,1508064524,".expand('%:p'))ct"
+""1	LINE	0
+	  " Use vimfiler instead of default filer.
+|3,1,1,1,1,0,1508070542,"  \" Use vimfiler instead of default filer."
+"2	LINE	0
+	  " Open filer
+|3,0,2,1,1,0,1508070541,"  \" Open filer"
+"3	LINE	0
+	  " Automatically open vimfiler on start
+|3,0,3,1,1,0,1508070538,"  \" Automatically open vimfiler on start"
+"4	LINE	0
+	  " Don't let <CR> enter the directory but let it open the directory
+|3,0,4,1,1,0,1508070538,"  \" Don't let <CR> enter the directory but let it open the directory"
+"5	LINE	0
+	  "autocmd VimEnter * if !argc() | VimFiler | endif
+|3,0,5,1,1,0,1508070534,"  \"autocmd VimEnter * if !argc() | VimFiler | endif"
+"6	LINE	0
+	  " If no files are specified, open vimfiler
+|3,0,6,1,1,0,1508070532,"  \" If no files are specified, open vimfiler"
+"7	LINE	0
+	  "autocmd VimEnter * VimFilerExplorer
+|3,0,7,1,1,0,1508070531,"  \"autocmd VimEnter * VimFilerExplorer"
+"8	LINE	0
+	  autocmd FileType vimfiler nmap <buffer> <CR> <Plug>(vimfiler_expand_or_edit)
+|3,0,8,1,1,0,1508070529,"  autocmd FileType vimfiler nmap <buffer> <CR> <Plug>(vimfiler_expand_or_edit)"
+"9	CHAR	0
+	" Open filer
+	noremap <silent> :tree :VimFiler -split -simple -winwidth=45 -no-quit
+	noremap <C-X><C-T> :VimFiler -split -simple -winwidth=45 -no-quit<ENTER>
+	" Don't let <CR> enter the directory but let it open the directory
+	autocmd FileType vimfiler nmap <buffer> <CR> <Plug>(vimfiler_expand_or_edit)
+	" Automatically open vimfiler on start
+	"autocmd VimEnter * VimFilerExplorer
+	" If no files are specified, open vimfiler
+	"autocmd VimEnter * if !argc() | VimFiler | endif
+	
+	
+|3,0,9,0,11,0,1508070304,"\" Open filer","noremap <silent> :tree :VimFiler -split -simple -winwidth=45 -no-quit","noremap <C-X><C-T> :VimFiler -split -simple -winwidth=45 -no-quit<ENTER>","\" Don't let <CR> enter the directory but let it open the directory","autocmd FileType vimfiler nmap <buffer> <CR> <Plug>(vimfiler_expand_or_edit)","\" Automatically open vimfiler on start","\"autocmd VimEnter * VimFilerExplorer",>45
+|<"\" If no files are specified, open vimfiler","\"autocmd VimEnter * if !argc() | VimFiler | endif","",""
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1508070436," "
+
+# ファイルマーク:
+'0  1  0  ~/Desktop/mac.txt
+|4,48,1,0,1508073418,"~/Desktop/mac.txt"
+'1  2  0  ~/vimfiler:default
+|4,49,2,0,1508070654,"~/vimfiler:default"
+'2  95  0  ~/dotfiles/.vimrc.bundle
+|4,50,95,0,1508070546,"~/dotfiles/.vimrc.bundle"
+'3  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,51,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+'4  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,52,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+'5  4  11  ~/.config/memo/_posts/2017-10-15-test.md
+|4,53,4,11,1508066480,"~/.config/memo/_posts/2017-10-15-test.md"
+'6  4  11  ~/.config/memo/_posts/2017-10-15-test.md
+|4,54,4,11,1508066480,"~/.config/memo/_posts/2017-10-15-test.md"
+'7  4  11  ~/.config/memo/_posts/2017-10-15-test.md
+|4,55,4,11,1508066480,"~/.config/memo/_posts/2017-10-15-test.md"
+'8  4  11  ~/.config/memo/_posts/2017-10-15-test.md
+|4,56,4,11,1508066480,"~/.config/memo/_posts/2017-10-15-test.md"
+'9  159  0  ~/dotfiles/.zshrc.alias
+|4,57,159,0,1508066309,"~/dotfiles/.zshrc.alias"
+
+# ジャンプリスト (新しいものが先):
+-'  1  0  ~/Desktop/mac.txt
+|4,39,1,0,1508073418,"~/Desktop/mac.txt"
+-'  2  0  ~/vimfiler:default
+|4,39,2,0,1508070654,"~/vimfiler:default"
+-'  2  0  ~/vimfiler:default
+|4,39,2,0,1508070654,"~/vimfiler:default"
+-'  1  0  ~/vimfiler:default
+|4,39,1,0,1508070638,"~/vimfiler:default"
+-'  1  0  ~/vimfiler:default
+|4,39,1,0,1508070638,"~/vimfiler:default"
+-'  95  0  ~/dotfiles/.vimrc.bundle
+|4,39,95,0,1508070546,"~/dotfiles/.vimrc.bundle"
+-'  3  0  ~/dotfiles/__Tag_List__
+|4,39,3,0,1508070546,"~/dotfiles/__Tag_List__"
+-'  95  0  ~/dotfiles/.vimrc.bundle
+|4,39,95,0,1508070546,"~/dotfiles/.vimrc.bundle"
+-'  3  0  ~/dotfiles/__Tag_List__
+|4,39,3,0,1508070546,"~/dotfiles/__Tag_List__"
+-'  95  0  ~/dotfiles/.vimrc.bundle
+|4,39,95,0,1508070546,"~/dotfiles/.vimrc.bundle"
+-'  3  0  ~/dotfiles/__Tag_List__
+|4,39,3,0,1508070546,"~/dotfiles/__Tag_List__"
+-'  95  0  ~/dotfiles/.vimrc.bundle
+|4,39,95,0,1508070546,"~/dotfiles/.vimrc.bundle"
+-'  3  0  ~/dotfiles/__Tag_List__
+|4,39,3,0,1508070546,"~/dotfiles/__Tag_List__"
+-'  95  0  ~/dotfiles/.vimrc.bundle
+|4,39,95,0,1508070546,"~/dotfiles/.vimrc.bundle"
+-'  3  0  ~/dotfiles/__Tag_List__
+|4,39,3,0,1508070546,"~/dotfiles/__Tag_List__"
+-'  95  0  ~/dotfiles/.vimrc.bundle
+|4,39,95,0,1508070546,"~/dotfiles/.vimrc.bundle"
+-'  3  0  ~/dotfiles/__Tag_List__
+|4,39,3,0,1508070546,"~/dotfiles/__Tag_List__"
+-'  95  0  ~/dotfiles/.vimrc.bundle
+|4,39,95,0,1508070546,"~/dotfiles/.vimrc.bundle"
+-'  3  0  ~/dotfiles/__Tag_List__
+|4,39,3,0,1508070546,"~/dotfiles/__Tag_List__"
+-'  95  0  ~/dotfiles/.vimrc.bundle
+|4,39,95,0,1508070546,"~/dotfiles/.vimrc.bundle"
+-'  3  0  ~/dotfiles/__Tag_List__
+|4,39,3,0,1508070546,"~/dotfiles/__Tag_List__"
+-'  2  0  ~/dotfiles/__Tag_List__
+|4,39,2,0,1508069959,"~/dotfiles/__Tag_List__"
+-'  2  0  ~/dotfiles/__Tag_List__
+|4,39,2,0,1508069959,"~/dotfiles/__Tag_List__"
+-'  2  0  ~/dotfiles/__Tag_List__
+|4,39,2,0,1508069959,"~/dotfiles/__Tag_List__"
+-'  2  0  ~/dotfiles/__Tag_List__
+|4,39,2,0,1508069959,"~/dotfiles/__Tag_List__"
+-'  2  0  ~/dotfiles/__Tag_List__
+|4,39,2,0,1508069959,"~/dotfiles/__Tag_List__"
+-'  2  0  ~/dotfiles/__Tag_List__
+|4,39,2,0,1508069959,"~/dotfiles/__Tag_List__"
+-'  2  0  ~/dotfiles/__Tag_List__
+|4,39,2,0,1508069959,"~/dotfiles/__Tag_List__"
+-'  2  0  ~/dotfiles/__Tag_List__
+|4,39,2,0,1508069959,"~/dotfiles/__Tag_List__"
+-'  1  0  ~/dotfiles/.vimrc.bundle
+|4,39,1,0,1508069958,"~/dotfiles/.vimrc.bundle"
+-'  1  0  ~/dotfiles/.vimrc.bundle
+|4,39,1,0,1508069958,"~/dotfiles/.vimrc.bundle"
+-'  1  0  ~/dotfiles/.vimrc.bundle
+|4,39,1,0,1508069958,"~/dotfiles/.vimrc.bundle"
+-'  1  0  ~/dotfiles/.vimrc.bundle
+|4,39,1,0,1508069958,"~/dotfiles/.vimrc.bundle"
+-'  1  0  ~/dotfiles/.vimrc.bundle
+|4,39,1,0,1508069958,"~/dotfiles/.vimrc.bundle"
+-'  1  0  ~/dotfiles/.vimrc.bundle
+|4,39,1,0,1508069958,"~/dotfiles/.vimrc.bundle"
+-'  1  0  ~/dotfiles/.vimrc.bundle
+|4,39,1,0,1508069958,"~/dotfiles/.vimrc.bundle"
+-'  1  0  ~/dotfiles/.vimrc.bundle
+|4,39,1,0,1508069958,"~/dotfiles/.vimrc.bundle"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067268,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+-'  13  0  ~/.config/memo/_posts/2017-10-15-test.md
+|4,39,13,0,1508067168,"~/.config/memo/_posts/2017-10-15-test.md"
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/Desktop/mac.txt
+	*	1508073415	0
+	"	1	0
+	^	1	31
+	.	1	30
+	+	1	30
+
+> ~/dotfiles/.vimrc.bundle
+	*	1508070546	0
+	"	95	0
+	.	96	0
+	+	90	37
+	+	94	15
+	+	94	12
+	+	94	13
+	+	97	0
+	+	96	2
+	+	96	1
+	+	97	1
+	+	97	0
+	+	97	1
+	+	97	2
+	+	97	0
+	+	98	1
+	+	99	1
+	+	99	0
+	+	99	1
+	+	99	0
+	+	97	0
+	+	96	0
+	n	331	2
+
+> ~/dotfiles/__Tag_List__
+	*	1508069959	0
+	"	3	0
+	.	4	0
+	+	13	0
+	+	17	0
+	+	16	0
+	+	4	0
+
+> ~/.config/memo/_posts/2017-10-15-test.md
+	*	1508067266	0
+	"	13	0
+	^	13	6
+	.	1	0
+	+	4	11
+	+	1	34
+	+	1	0
+	+	3	12
+	+	3	0
+	+	4	0
+	+	9	1
+	+	9	0
+	+	5	2
+	+	5	0
+	+	6	2
+	+	7	2
+	+	8	2
+	+	6	2
+	+	6	0
+	+	7	2
+	+	8	1
+	+	9	0
+	+	8	8
+	+	9	16
+	+	13	5
+	+	1	0
+
+> ~/dotfiles/.zshrc.alias
+	*	1508066309	0
+	"	159	0
+	.	84	0
+	+	54	0
+	+	53	0
+	+	79	0
+	+	84	0
+
+> ~/dotfiles/[unite] - files
+	*	1508066254	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	2	0
+
+> ~/dotfiles/-MiniBufExplorer-
+	*	1508066251	0
+	"	1	17
+	.	2	0
+	+	2	0
+
+> ~/dotfiles/.vimrc.editing
+	*	1508066163	0
+	"	115	0
+	^	115	0
+	.	115	0
+	+	107	0
+	+	113	0
+	+	112	0
+	+	113	0
+	+	112	0
+	+	111	0
+	+	113	0
+	+	115	0
+
+> ~/Desktop/_memo/171015_01.md
+	*	1508065741	0
+	"	4	100
+	^	4	101
+	.	4	100
+	+	4	73
+	+	4	68
+	+	4	0
+	+	4	73
+	+	4	1
+	+	5	0
+	+	4	0
+	+	3	17
+	+	4	0
+	+	3	0
+	+	4	0
+	+	4	1
+	+	4	0
+	+	4	100
+
+> ~/dotfiles/[unite] - default
+	*	1508064528	0
+	"	1	0
+	^	1	40
+	.	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	m	1	272
+
+> ~/.vimrc
+	*	1508064414	0
+	"	31	0
+
+> ~/__Tag_List__
+	*	1508064388	0
+	"	3	0
+	.	4	0
+	+	5	0
+	+	4	0
+
+> ~/Desktop/_memo/171015-01.md
+	*	1508063856	0
+	"	1	0
+
+> ~/Desktop/_memo/NERD_tree_1
+	*	1508063636	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> /private/var/folders/8m/qsw40mvs7s528s62vzzbg_5c0000gn/T/tutoruk44YZ
+	*	1508059885	0
+	"	1003	8
+	^	841	31
+	.	841	31
+	+	203	39
+	+	224	64
+	+	228	0
+	+	229	0
+	+	224	0
+	+	219	0
+	+	450	0
+	+	448	0
+	+	203	0
+	+	275	0
+	+	1002	30
+	+	250	42
+	+	248	17
+	+	275	0
+	+	263	0
+	+	310	0
+	+	311	0
+	+	375	0
+	+	376	0
+	+	377	0
+	+	378	0
+	+	379	0
+	+	380	0
+	+	381	0
+	+	382	0
+	+	383	0
+	+	384	0
+	+	385	0
+	+	386	0
+	+	387	0
+	+	388	0
+	+	405	0
+	+	404	87
+	+	406	0
+	+	404	60
+	+	429	13
+	+	430	14
+	+	429	55
+	+	454	70
+	+	1003	0
+	+	559	0
+	+	565	0
+	+	657	0
+	+	651	0
+	+	720	104
+	+	735	21
+	+	805	35
+	+	831	0
+	+	805	0
+	+	831	0
+	+	832	8
+	+	841	31
+
+> ~/dotfiles/.vim/bundle/.neobundle/doc/help.jax
+	*	1508055732	0
+	"	47	0
+
+> ~/-MiniBufExplorer-
+	*	1508055723	0
+	"	1	26
+	.	2	0
+	+	2	0
+
+> /Applications/MacVim.app/__Tag_List__
+	*	1508055697	0
+	"	3	0
+	.	1	0
+	+	4	0
+	+	2	0
+	+	1	0
+
+> /private/tmp/zshXHYpGo
+	*	1508055637	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	4	0
+	+	3	0
+	+	2	0
+	+	1	2
+
+> /Applications/MacVim.app/-MiniBufExplorer-
+	*	1508055637	0
+	"	1	15
+	.	2	0
+	+	2	0
+
+> /usr/share/vim/vim80/doc/help.txt
+	*	1508053436	0
+	"	224	2
+
+> /private/var/folders/8m/qsw40mvs7s528s62vzzbg_5c0000gn/T/tutormjw8gH
+	*	1508047348	0
+	"	199	0
+	^	133	59
+	.	133	56
+	+	83	0
+	+	69	45
+	+	83	59
+	+	108	62
+	+	131	56
+	+	133	56
+
+> /private/var/folders/8m/qsw40mvs7s528s62vzzbg_5c0000gn/T/tutor9I1Tch
+	*	1508043593	0
+	"	73	19
+
+> /private/etc/shells
+	*	1508036939	0
+	"	13	17
+	^	13	18
+	.	13	17
+	+	14	0
+	+	12	0
+	+	14	0
+	+	13	17
+
+> ~/.zshrc
+	*	1508036387	0
+	"	45	0
+	^	44	41
+	.	45	0
+	+	44	0
+	+	44	6
+	+	45	0
+	+	44	6
+	+	45	0
+	+	44	0
+	+	43	0
+	+	44	0
+	+	43	0
+	+	44	5
+	+	44	0
+	+	43	0
+	+	44	41
+	+	43	32
+	+	42	0
+	+	43	31
+	+	45	4
+	+	45	0
+	+	44	41
+	+	45	0
+
+> ~/dotfiles/import.scala
+	*	1508034119	0
+	"	61	0
+
+> ~/dotfiles/README.txt
+	*	1508034111	0
+	"	10	0
+	.	10	0
+	+	10	0
+
+> ~/dotfiles/hoge.txt
+	*	1508033484	0
+	"	19	0
+	^	19	0
+	.	18	13
+	+	18	13
+
+> /private/var/folders/8m/qsw40mvs7s528s62vzzbg_5c0000gn/T/tutorWGY5tq
+	*	1507991930	0
+	"	1	0
+	^	58	58
+	.	58	57
+	+	51	0
+	+	50	0
+	+	58	57
+
+> ~/hoge.txt
+	*	1507972916	0
+	"	1	0
+	.	1	0
+	+	1	0

@@ -1,0 +1,9 @@
+memodir = "/Users/komei/.config/memo/_posts"
+editor = "/Applications/MacVim.app/Contents/MacOS/Vim"
+column = 20
+selectcmd = "peco"
+grepcmd = "grep -nH ${PATTERN} ${FILES}"
+assetsdir = "."
+pluginsdir = "/Users/komei/.config/memo/plugins"
+templatedirfile = ""
+templatebodyfile = ""
