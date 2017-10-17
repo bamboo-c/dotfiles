@@ -51,3 +51,6 @@ alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"
 
 ### git
 export PATH="/usr/local/Cellar/git/2.14.2/bin:$PATH"
+
+### npm
+export PATH=$PATH:./node_modules/.bin
