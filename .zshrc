@@ -54,3 +54,12 @@ export PATH="/usr/local/Cellar/git/2.14.2/bin:$PATH"
 
 ### npm
 export PATH=$PATH:./node_modules/.bin
+
+### yarn
+export PATH="$PATH:`yarn global bin`"
+export PATH="$HOME/.rbenv/bin:$PATH"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+### python
+export PYENV_ROOT=/usr/local/var/pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
