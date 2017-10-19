@@ -373,16 +373,8 @@ NeoBundleLazy 'lambdalisue/vim-gista', {
     \    'mappings': '<Plug>(gista-',
     \    'unite_sources': 'gista',
     \}}
-<<<<<<< HEAD
-
 
 let g:gista#github_user = 'bamboo-c'
 call neobundle#end()
 
-=======
-call neobundle#end()
-
-
-let g:gista#github_user = 'bamboo-c'
->>>>>>> update vimrc
 filetype plugin indent on
