@@ -363,10 +363,6 @@ call neobundle#begin(expand('~/.vim/bundle'))
 "
 " NeoBundle 'gmarik/vundle'
 
-call neobundle#end()
-
-filetype plugin indent on
-
 " neobundle.vim
 NeoBundle 'lambdalisue/vim-gista'
 
@@ -377,3 +373,9 @@ NeoBundleLazy 'lambdalisue/vim-gista', {
     \    'mappings': '<Plug>(gista-',
     \    'unite_sources': 'gista',
     \}}
+
+
+let g:gista#github_user = 'bamboo-c'
+call neobundle#end()
+
+filetype plugin indent on
