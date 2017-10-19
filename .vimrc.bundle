@@ -97,6 +97,9 @@ call neobundle#begin(expand('~/.vim/bundle'))
   noremap <silent> :tree :VimFiler -split -simple -winwidth=45 -no-quit
   noremap <C-X><C-T> :VimFiler -split -simple -winwidth=45 -no-quit<ENTER>
 
+  " 変数名の変換
+  NeoBundle 'tpope/vim-abolish'
+
 " }}}
 
 " Completion {{{
