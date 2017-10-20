@@ -380,7 +380,6 @@ NeoBundleLazy 'lambdalisue/vim-gista', {
     \    'unite_sources': 'gista',
     \}}
 
-let g:gista#github_user = 'bamboo-c'
 call neobundle#end()
 
 filetype plugin indent on

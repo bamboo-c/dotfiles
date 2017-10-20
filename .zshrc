@@ -63,3 +63,8 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 ### python
 export PYENV_ROOT=/usr/local/var/pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
+### tmux の newsession 設定
+if [ $SHLVL = 1 ]; then
+  alias tmux="tmux attach || tmux new-session \; source-file ~/.tmux/new-session"
+fi
