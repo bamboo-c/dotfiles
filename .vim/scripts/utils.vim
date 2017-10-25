@@ -2,38 +2,6 @@ if !exists('g:env')
     finish
 endif
 
-function! s:b4b4r07() "{{{1
-    hide enew
-    setlocal buftype=nofile nowrap nolist nonumber bufhidden=wipe
-    setlocal modifiable nocursorline nocursorcolumn
-
-    let b4b4r07 = []
-    call add(b4b4r07, 'Copyright (c) 2014                                 b4b4r07''s vimrc.')
-    call add(b4b4r07, '.______    _  _    .______    _  _    .______        ___    ______  ')
-    call add(b4b4r07, '|   _  \  | || |   |   _  \  | || |   |   _  \      / _ \  |____  | ')
-    call add(b4b4r07, '|  |_)  | | || |_  |  |_)  | | || |_  |  |_)  |    | | | |     / /  ')
-    call add(b4b4r07, '|   _  <  |__   _| |   _  <  |__   _| |      /     | | | |    / /   ')
-    call add(b4b4r07, '|  |_)  |    | |   |  |_)  |    | |   |  |\  \----.| |_| |   / /    ')
-    call add(b4b4r07, '|______/     |_|   |______/     |_|   | _| `._____| \___/   /_/     ')
-    call add(b4b4r07, '           #VIM + #ZSH + #TMUX = Best Developer Environmen          ')
-
-    silent put =repeat([''], winheight(0)/2 - len(b4b4r07)/2)
-    let space = repeat(' ', winwidth(0)/2 - strlen(b4b4r07[0])/2)
-    for line in b4b4r07
-        put =space . line
-    endfor
-    silent put =repeat([''], winheight(0)/2 - len(b4b4r07)/2 + 1)
-    silent file B4B4R07
-    1
-
-    execute 'syntax match Directory display ' . '"'. '^\s\+\U\+$'. '"'
-    setlocal nomodifiable
-    redraw
-    let char = getchar()
-    silent enew
-    call feedkeys(type(char) == type(0) ? nr2char(char) : char)
-endfunction
-
 augroup vimrc-without-plugin
     autocmd!
     autocmd VimEnter * if !argc() | call <SID>b4b4r07() | endif
