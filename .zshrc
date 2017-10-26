@@ -215,6 +215,10 @@ alias perms="stat -c '%A %a %n'"
 # expand sudo aliases
 alias sudo="sudo "
 
+# tmux 起動時にペインを分けておく
+if [ $SHLVL = 1 ]; then
+  alias tmux="tmux attach || tmux new-session \; source-file ~/.tmux/session"
+fi
 
 ##
 # Functions
@@ -370,4 +374,17 @@ fi
 if [[ $LANG == "C"  || $LANG == "" ]]; then
     >&2 echo "$fg[red]The \$LANG variable is not set. This can cause a lot of problems.$reset_color"
 fi
+
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH=/usr/local/opt/python/libexec/bin:/Users/komei/.nodebrew/current/bin:/Users/komei/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/Desktop/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
