@@ -90,6 +90,7 @@ if g:plug.ready() && g:env.vimrc.plugin_on
     Plug 'cocopon/vaffle.vim'
     Plug 'hotwatermorning/auto-git-diff'
     Plug 'lambdalisue/vim-gista'
+    Plug 'rizzatti/dash.vim'
 
     " Add plugins to &runtimepath
     call plug#end()
