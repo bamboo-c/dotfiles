@@ -57,3 +57,7 @@ repo = 'junegunn/seoul256.vim'
 
 [[plugins]]
 repo = 'nanotech/jellybeans.vim'
+
+[[plugins]]
+repo = 'davidhalter/jedi-vim'
+on_ft = 'python'
