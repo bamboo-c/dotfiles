@@ -399,3 +399,12 @@ source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
