@@ -88,9 +88,9 @@ set wildignore+=*.DS_Store
 set ruler
 set rulerformat=%m%r%=%l/%L
 
-" 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+" 1 tab == 2 spaces
+set shiftwidth=2
+set tabstop=2
 
 " String to put at the start of lines that have been wrapped.
 let &showbreak = '+++ '
@@ -214,6 +214,8 @@ endif
 if has('patch-7.4.338')
     set breakindent
 endif
+
+set tags=./tags;,tags;
 
 " __END__ {{{1
 " vim:fdm=marker expandtab fdc=3:
