@@ -378,52 +378,9 @@ fi
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH=/usr/local/opt/python/libexec/bin:/Users/komei/.nodebrew/current/bin:/Users/komei/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+
 source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/Desktop/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export GOROOT=/usr/local/opt/go/libexec
+export GOPATH=$HOME
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
