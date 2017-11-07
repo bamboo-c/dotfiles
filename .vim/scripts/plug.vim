@@ -91,6 +91,7 @@ if g:plug.ready() && g:env.vimrc.plugin_on
     Plug 'hotwatermorning/auto-git-diff'
     Plug 'lambdalisue/vim-gista'
     Plug 'rizzatti/dash.vim'
+    Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 
     " Add plugins to &runtimepath
     call plug#end()
