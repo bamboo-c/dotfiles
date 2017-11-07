@@ -215,7 +215,7 @@ if has('patch-7.4.338')
     set breakindent
 endif
 
-set tags=./tags;,tags;
+set tags=./tags;,tags;,~/.ctag;
 
 " __END__ {{{1
 " vim:fdm=marker expandtab fdc=3:
