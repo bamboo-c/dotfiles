@@ -54,7 +54,6 @@ if g:plug.ready() && g:env.vimrc.plugin_on
     Plug 'dag/vim-fish', { 'for': 'fish' }
     Plug 'zplug/vim-zplug', { 'for': 'zplug' }
     Plug 'chase/vim-ansible-yaml'
-    Plug 'evanmiller/nginx-vim-syntax', { 'for': 'nginx' }
     Plug 'cespare/vim-toml', { 'for': 'toml' }
     Plug 'elzr/vim-json', { 'for': 'json' }
     Plug 'b4b4r07/vim-ltsv', { 'for': 'ltsv' }
@@ -92,6 +91,7 @@ if g:plug.ready() && g:env.vimrc.plugin_on
     Plug 'lambdalisue/vim-gista'
     Plug 'rizzatti/dash.vim'
     Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+    Plug 'Quramy/tsuquyomi'
 
     " Add plugins to &runtimepath
     call plug#end()
