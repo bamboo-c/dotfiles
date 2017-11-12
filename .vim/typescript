@@ -757,4 +757,295 @@ startuptime:   0.114885[?12l[?25h[?25l[3;7H[38;5;187m [4;7H [5;7H [6;7H 
 [38;5;144m[48;5;238m  [m[38;5;252m[48;5;237m[38;5;101m[48;5;238m 46 [m[38;5;252m[48;5;237m[38;5;110mif[m[38;5;252m[48;5;237m [[ -z [38;5;109m"[m[38;5;252m[48;5;237m[38;5;143m$XDG_CONFIG_HOME[m[38;5;252m[48;5;237m[38;5;109m"[m[38;5;252m[48;5;237m ]]; [38;5;110mthen[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m
 [38;5;144m[48;5;238m  [m[38;5;252m[48;5;237m[38;5;101m[48;5;238m 47 [m[38;5;252m[48;5;237m    [38;5;168mexport[m[38;5;252m[48;5;237m XDG_CONFIG_HOME=[38;5;109m"[m[38;5;252m[48;5;237m[38;5;143m$HOME[m[38;5;252m[48;5;237m[38;5;109m/.config"[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m
 [30m[107m[1]:~/D/dotfiles/.zshrc [m[38;5;252m[48;5;237m[1m[7m[38;5;95m[48;5;187m                                        [m[38;5;252m[48;5;237m[30m[107m[zsh][utf-8:unix]    1/ 388L,  1C   0%[m[38;5;252m[48;5;237m[50;1H[1#.zshrc][50;11H[K[2;3H[38;5;101m[48;5;238m344 [m[38;5;252m[48;5;237m    [38;5;110mfi[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m                               [2;46H[K[3;3H[38;5;101m[48;5;238m345[m[38;5;252m[48;5;237m[1C}[38;5;59m<[m[38;5;252m[48;5;237m [35C[48;5;236m [m[38;5;252m[48;5;237m[4;3H[38;5;101m[48;5;238m346[m[38;5;252m[48;5;237m[1C[38;5;59m<[m[38;5;252m[48;5;237m                                     [48;5;236m [m[38;5;252m[48;5;237m[5;3H[38;5;101m[48;5;238m347[m[38;5;252m[48;5;237m[1Cprecmd() {[38;5;59m<[m[38;5;252m[48;5;237m[27C[48;5;236m [m[38;5;252m[48;5;237m[6;3H[38;5;101m[48;5;238m348[m[38;5;252m[48;5;237m[1C    vcs_info[38;5;59m<[m[38;5;252m[48;5;237m[25C[48;5;236m [m[38;5;252m[48;5;237m[7;3H[38;5;101m[48;5;238m349[m[38;5;252m[48;5;237m[1C}[38;5;59m<[m[38;5;252m[48;5;237m                             [7C[48;5;236m [m[38;5;252m[48;5;237m[8;3H[38;5;101m[48;5;238m350[m[38;5;252m[48;5;237m[1C[38;5;59m<[m[38;5;252m[48;5;237m                            [9C[48;5;236m [m[38;5;252m[48;5;237m[9;3H[38;5;101m[48;5;238m351[m[38;5;252m[48;5;237m[1C[38;5;65m# Syntax highlighting plugin[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[9C[48;5;236m [m[38;5;252m[48;5;237m[10;3H[38;5;101m[48;5;238m352[m[38;5;252m[48;5;237m[25Cplugins/zsh-sy[48;5;236mn[m[38;5;252m[48;5;237mtax-highlighting/zsh-syntax-highlighting.zsh ]]; [38;5;110mthen[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[11;3H[38;5;101m[48;5;238m353[m[38;5;252m[48;5;237m[1C    [38;5;168msource[m[38;5;252m[48;5;237m /usr/share/zsh/plugins/zsh-[48;5;236ms[m[38;5;252m[48;5;237myntax-highlighting/zsh-syntax-highlighting.zsh[38;5;59m<[m[38;5;252m[48;5;237m[12;3H[38;5;101m[48;5;238m354[m[38;5;252m[48;5;237m[1C[38;5;110melif[m[38;5;252m[48;5;237m [[ -e /usr/share/zsh-syntax-highl[48;5;236mi[m[38;5;252m[48;5;237mghting/zsh-syntax-highlighting.zsh ]]; [38;5;110mthen[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[13;3H[38;5;101m[48;5;238m355[m[38;5;252m[48;5;237m[5C[38;5;168msource[m[38;5;252m[48;5;237m /usr/share/zsh-syntax-highl[48;5;236mi[m[38;5;252m[48;5;237mghting/zsh-syntax-highlighting.zsh[38;5;59m<[m[38;5;252m[48;5;237m[14;3H[38;5;101m[48;5;238m356[m[38;5;252m[48;5;237m[1C[38;5;110mfi[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m  [33C[48;5;236m [m[38;5;252m[48;5;237m[15;3H[38;5;101m[48;5;238m357[m[38;5;252m[48;5;237m[1C[38;5;59m<[m[38;5;252m[48;5;237m                     [16C[48;5;236m [m[38;5;252m[48;5;237m[16;3H[38;5;101m[48;5;238m358[m[38;5;252m[48;5;237m[1C[38;5;65m# virtualenvwrapper support[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m          [48;5;236m [m[38;5;252m[48;5;237m[16;46H[K[17;3H[38;5;101m[48;5;238m359[m[38;5;252m[48;5;237m[1C[38;5;65m# Remember to set $PROJECT_HOME in you[m[38;5;252m[48;5;237m[38;5;65m[48;5;236mr[m[38;5;252m[48;5;237m[38;5;65m profile file![m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[18;3H[38;5;101m[48;5;238m360[m[38;5;252m[48;5;237m[1C[38;5;110mif[m[38;5;252m[48;5;237m [38;5;216mcommand[m[38;5;252m[48;5;237m -V virtualenvwrapper_lazy.s[48;5;236mh[m[38;5;252m[48;5;237m [38;5;186m>[m[38;5;252m[48;5;237m/dev/null [38;5;222m2[m[38;5;252m[48;5;237m[38;5;186m>[m[38;5;252m[48;5;237m&[38;5;222m1[m[38;5;252m[48;5;237m; [38;5;110mthen[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[19;3H[38;5;101m[48;5;238m361[m[38;5;252m[48;5;237m[5C[38;5;168mexport[m[38;5;252m[48;5;237m WORKON_HOME=[38;5;109m"[m[38;5;252m[48;5;237m[38;5;143m$XDG_DATA_HOME[m[38;5;252m[48;5;237m[38;5;109m[48;5;236m/[m[38;5;252m[48;5;237m[38;5;109mvirtualenvs"[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[20;3H[38;5;101m[48;5;238m362[m[38;5;252m[48;5;237m[5C[38;5;168msource[m[38;5;252m[48;5;237m virtualenvwrapper_lazy.sh[38;5;59m<[m[38;5;252m[48;5;237m [48;5;236m [m[38;5;252m[48;5;237m[21;3H[38;5;101m[48;5;238m363[m[38;5;252m[48;5;237m[5C[38;5;65m# Arch linux uses python3 by defau[m[38;5;252m[48;5;237m[38;5;65m[48;5;236ml[m[38;5;252m[48;5;237m[1C[38;5;65m, this is required to make python2-compatible projects[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[22;3H[38;5;101m[48;5;238m364[m[38;5;252m[48;5;237m[5C[38;5;168malias[m[38;5;252m[48;5;237m mkproject2=[38;5;109m"mkproject -p /us[m[38;5;252m[48;5;237m[38;5;109m[48;5;236mr[m[38;5;252m[48;5;237m[38;5;109m/bin/python2"[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[22;60H[K[23;3H[38;5;101m[48;5;238m365[m[38;5;252m[48;5;237m[5C[38;5;168malias[m[38;5;252m[48;5;237m mkvirtualenv2=[38;5;109m"mkvirtualenv [m[38;5;252m[48;5;237m[38;5;109m[48;5;236m-[m[38;5;252m[48;5;237m[38;5;109mp /usr/bin/python2"[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[24;3H[38;5;101m[48;5;238m366[m[38;5;252m[48;5;237m[1C[38;5;110mfi[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m                          [9C[48;5;236m [m[38;5;252m[48;5;237m[25;3H[38;5;101m[48;5;238m367[m[38;5;252m[48;5;237m[1C[38;5;59m<[m[38;5;252m[48;5;237m      [31C[48;5;236m [m[38;5;252m[48;5;237m[26;3H[38;5;101m[48;5;238m368[m[38;5;252m[48;5;237m[1C[38;5;65m# User profile[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m                       [48;5;236m [m[38;5;252m[48;5;237m[27;3H[38;5;101m[48;5;238m369[m[38;5;252m[48;5;237m[1C[38;5;110mif[m[38;5;252m[48;5;237m [[ -e [38;5;109m"[m[38;5;252m[48;5;237m[38;5;143m$XDG_CONFIG_HOME[m[38;5;252m[48;5;237m[38;5;109m/zsh/profile[m[38;5;252m[48;5;237m[38;5;109m[48;5;236m"[m[38;5;252m[48;5;237m ]]; [38;5;110mthen[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[27;56H[K[28;3H[38;5;101m[48;5;238m370[m[38;5;252m[48;5;237m[1C    [38;5;168msource[m[38;5;252m[48;5;237m [38;5;109m"[m[38;5;252m[48;5;237m[38;5;143m$XDG_CONFIG_HOME[m[38;5;252m[48;5;237m[38;5;109m/zsh/profi[m[38;5;252m[48;5;237m[38;5;109m[48;5;236ml[m[38;5;252m[48;5;237m[38;5;109me"[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[29;3H[38;5;101m[48;5;238m371[m[38;5;252m[48;5;237m[1C[38;5;110mfi[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m                                   [48;5;236m [m[38;5;252m[48;5;237m[29;46H[K[30;3H[38;5;101m[48;5;238m372[m[38;5;252m[48;5;237m[39C[48;5;236m [m[38;5;252m[48;5;237m[31;3H[38;5;101m[48;5;238m373[m[38;5;252m[48;5;237m[1C[38;5;65m# Check if $LANG is badly set as it ca[m[38;5;252m[48;5;237m[38;5;65m[48;5;236mu[m[38;5;252m[48;5;237m[38;5;65mses issues[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[32;3H[38;5;101m[48;5;238m374[m[38;5;252m[48;5;237m[1C[38;5;110mif[m[38;5;252m[48;5;237m [[ [38;5;143m$LANG[m[38;5;252m[48;5;237m ==[2C[38;5;109mC"[m[38;5;252m[48;5;237m  [38;5;186m||[m[38;5;252m[48;5;237m [38;5;143m$LANG[m[38;5;252m[48;5;237m == [38;5;109m""[m[38;5;252m[48;5;237m ]];[48;5;236m [m[38;5;252m[48;5;237m[38;5;110mthen[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[33;3H[38;5;101m[48;5;238m375[m[38;5;252m[48;5;237m[5C[38;5;186m>[m[38;5;252m[48;5;237m&[38;5;222m2[m[38;5;252m[48;5;237m [38;5;168mecho[m[38;5;252m[48;5;237m [38;5;109m"[m[38;5;252m[48;5;237m[38;5;143m$fg[m[38;5;252m[48;5;237m[38;5;109m[red]The[m[38;5;252m[48;5;237m[1C[38;5;216m\$[m[38;5;252m[48;5;237m[38;5;109mLANG varia[m[38;5;252m[48;5;237m[38;5;109m[48;5;236mb[m[38;5;252m[48;5;237m[38;5;109mle is not set. This can cause a lot of problems.[m[38;5;252m[48;5;237m[38;5;143m$reset_coo[m[38;5;252m[48;5;237m[34;1H[38;5;144m[48;5;238m [m[38;5;252m[48;5;237m[2C[38;5;101m[48;5;238m  [m[38;5;252m[48;5;237m[5C[38;5;59m+++ [m[38;5;252m[48;5;237m[38;5;143mlor[m[38;5;252m[48;5;237m[38;5;109m"[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[35;3H[38;5;101m[48;5;238m376[m[38;5;252m[48;5;237m[39C[48;5;236m [m[38;5;252m[48;5;237m[36;3H[38;5;101m[48;5;238m377[m[38;5;252m[48;5;237m[39C[48;5;236m [m[38;5;252m[48;5;237m[37;3H[38;5;101m[48;5;238m378[m[38;5;252m[48;5;237m[1C[38;5;168mexport[m[38;5;252m[48;5;237m PATH=[38;5;143m$HOME[m[38;5;252m[48;5;237m/.nodebrew/current/bi[48;5;236mn[m[38;5;252m[48;5;237m:[38;5;143m$PATH[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[38;3H[38;5;101m[48;5;238m379[m[38;5;252m[48;5;237m[1C[38;5;168mexport[m[38;5;252m[48;5;237m PATH=/usr/[38;5;179mlocal[m[38;5;252m[48;5;237m/opt/python/libe[48;5;236mx[m[38;5;252m[48;5;237mec/bin:/Users/komei/.nodebrew/current/bin:/Users/komei/bii[39;1H[38;5;144m[48;5;238m [m[38;5;252m[48;5;237m[2C[38;5;101m[48;5;238m  [m[38;5;252m[48;5;237m[1C[38;5;59m+++ [m[38;5;252m[48;5;237mn:/usr/[38;5;179mlocal[m[38;5;252m[48;5;237m/bin:/usr/bin:/bin:/usr/sbin:/sbin[38;5;59m<[m[38;5;252m[48;5;237m[40;3H[38;5;101m[48;5;238m380[m[38;5;252m[48;5;237m[1Cgit [38;5;168mclone[m[38;5;252m[48;5;237m https://github.com/zsh-users[48;5;236m/[m[38;5;252m[48;5;237mzsh-syntax-highlighting.git[38;5;59m<[m[38;5;252m[48;5;237m[41;3H[38;5;101m[48;5;238m381[m[38;5;252m[48;5;237m[1C[38;5;59m<[m[38;5;252m[48;5;237m                                     [48;5;236m [m[38;5;252m[48;5;237m[41;46H[K[42;3H[38;5;101m[48;5;238m382[m[38;5;252m[48;5;237m[1C[38;5;168msource[m[38;5;252m[48;5;237m /Users/komei/zsh-syntax-highlig[48;5;236mh[m[38;5;252m[48;5;237mting/zsh-syntax-highlighting.zsh[38;5;59m<[m[38;5;252m[48;5;237m[42;79H[K[43;3H[38;5;101m[48;5;238m383[m[38;5;252m[48;5;237m[1C[38;5;59m<[m[38;5;252m[48;5;237m                                     [48;5;236m [m[38;5;252m[48;5;237m[44;3H[38;5;101m[48;5;238m384[m[38;5;252m[48;5;237m[1C[38;5;168mexport[m[38;5;252m[48;5;237m GOROOT=/usr/[38;5;179mlocal[m[38;5;252m[48;5;237m/opt/go/libexe[48;5;236mc[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[44;47H[K[45;3H[38;5;101m[48;5;238m385[m[38;5;252m[48;5;237m[1C[38;5;168mexport[m[38;5;252m[48;5;237m GOPATH=[38;5;143m$HOME[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[18C[48;5;236m [m[38;5;252m[48;5;237m[46;3H[38;5;101m[48;5;238m386[m[38;5;252m[48;5;237m[1C[38;5;168mexport[m[38;5;252m[48;5;237m PATH=[38;5;143m$PATH[m[38;5;252m[48;5;237m:[38;5;143m$GOROOT[m[38;5;252m[48;5;237m/bin:[38;5;143m$GOPATH[m[38;5;252m[48;5;237m/[48;5;236mb[m[38;5;252m[48;5;237min[38;5;59m<[m[38;5;252m[48;5;237m[47;3H[38;5;101m[48;5;238m387[m[38;5;252m[48;5;237m[1C[38;5;59m<[m[38;5;252m[48;5;237m                                     [48;5;236m [m[38;5;252m[48;5;237m[48;3H[38;5;131m[48;5;236m388 [m[38;5;252m[48;5;237m[38;5;168m[48;5;236malias[m[38;5;252m[48;5;237m[48;5;236m ctags=[m[38;5;252m[48;5;237m[38;5;109m[48;5;236m"[m[38;5;252m[48;5;237m[38;5;143m[48;5;236m`brew --prefix`[m[38;5;252m[48;5;237m[38;5;109m[48;5;236m/bin/ctags"[m[38;5;252m[48;5;237m[48;5;236m<                                                        [m[38;5;252m[48;5;237m[49;84H[30m[107m388[8C39C 10[>c[m[38;5;252m[48;5;237m
-startuptime:   0.144849[?12l[?25h[?25l[2;45H[K[3;45H[K[4;45H[K[5;45H[K[6;45H[K[7;45H[K[8;45H[K[9;45H[K[10;45Hn[11;45Hs[12;45Hi[13;45Hi[14;45H[K[15;45H[K[16;45H[K[17;45H[38;5;65mr[m[38;5;252m[48;5;237m[18;45Hh[19;45H[38;5;109m/[m[38;5;252m[48;5;237m[20;45H[K[21;45H[38;5;65ml[m[38;5;252m[48;5;237m[22;45H[38;5;109mr[23;45H-[m[38;5;252m[48;5;237m[24;45H[K[25;45H[K[26;45H[K[27;45H[38;5;109m"[28;45Hl[m[38;5;252m[48;5;237m[29;45H[K[30;45H[K[31;45H[38;5;65mu[m[38;5;252m[48;5;237m[32;45H [33;45H[38;5;109mb[m[38;5;252m[48;5;237m[56C[38;5;143moo[m[38;5;252m[48;5;237m[34;1H[38;5;144m[48;5;238m [m[38;5;252m[48;5;237m[35;45H[K[36;45H[K[37;45Hn[38;45Hx[56Cii[39;1H[38;5;144m[48;5;238m [m[38;5;252m[48;5;237m[40;45H/[41;45H[K[42;45Hh[43;45H[K[44;45Hc[45;45H[K[46;45Hb[47;45H[K[48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h
+startuptime:   0.144849[?12l[?25h[?25l[2;45H[K[3;45H[K[4;45H[K[5;45H[K[6;45H[K[7;45H[K[8;45H[K[9;45H[K[10;45Hn[11;45Hs[12;45Hi[13;45Hi[14;45H[K[15;45H[K[16;45H[K[17;45H[38;5;65mr[m[38;5;252m[48;5;237m[18;45Hh[19;45H[38;5;109m/[m[38;5;252m[48;5;237m[20;45H[K[21;45H[38;5;65ml[m[38;5;252m[48;5;237m[22;45H[38;5;109mr[23;45H-[m[38;5;252m[48;5;237m[24;45H[K[25;45H[K[26;45H[K[27;45H[38;5;109m"[28;45Hl[m[38;5;252m[48;5;237m[29;45H[K[30;45H[K[31;45H[38;5;65mu[m[38;5;252m[48;5;237m[32;45H [33;45H[38;5;109mb[m[38;5;252m[48;5;237m[56C[38;5;143moo[m[38;5;252m[48;5;237m[34;1H[38;5;144m[48;5;238m [m[38;5;252m[48;5;237m[35;45H[K[36;45H[K[37;45Hn[38;45Hx[56Cii[39;1H[38;5;144m[48;5;238m [m[38;5;252m[48;5;237m[40;45H/[41;45H[K[42;45Hh[43;45H[K[44;45Hc[45;45H[K[46;45Hb[47;45H[K[48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgj[48;45H[51;92H  [48;45H[?12l[?25h[?25l[51;92Hgk[48;45H[51;92H  [47;7H[47;3H[38;5;131m[48;5;236m387 [m[38;5;252m[48;5;237m[48;5;236m<                                                                                               [m[38;5;252m[48;5;237m[48;3H[38;5;101m[48;5;238m388 [m[38;5;252m[48;5;237m[38;5;168malias[m[38;5;252m[48;5;237m ctags=[38;5;109m"[m[38;5;252m[48;5;237m[38;5;143m`brew --prefix`[m[38;5;252m[48;5;237m[38;5;109m/bin/ctags"[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[48;47H[K[49;86H[30m[107m7[8C 0C  99[47;7H[?12l[?25h[?25l[m[38;5;252m[48;5;237m[51;92Hgk[47;7H[51;92H  [46;7H[46;3H[38;5;131m[48;5;236m386 [m[38;5;252m[48;5;237m[38;5;168m[48;5;236mexport[m[38;5;252m[48;5;237m[48;5;236m PATH=[m[38;5;252m[48;5;237m[38;5;143m[48;5;236m$PATH[m[38;5;252m[48;5;237m[48;5;236m:[m[38;5;252m[48;5;237m[38;5;143m[48;5;236m$GOROOT[m[38;5;252m[48;5;237m[48;5;236m/bin:[m[38;5;252m[48;5;237m[38;5;143m[48;5;236m$GOPATH[m[38;5;252m[48;5;237m[48;5;236m/bin<                                                      [m[38;5;252m[48;5;237m[47;3H[38;5;101m[48;5;238m387 [m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[47;8H[K[49;86H[30m[107m6[9C1[46;7H[?12l[?25h[?25l[m[38;5;252m[48;5;237m[51;92Hgk[46;7H[51;92H  [45;7H[45;3H[38;5;131m[48;5;236m385 [m[38;5;252m[48;5;237m[38;5;168m[48;5;236mexport[m[38;5;252m[48;5;237m[48;5;236m GOPATH=[m[38;5;252m[48;5;237m[38;5;143m[48;5;236m$HOME[m[38;5;252m[48;5;237m[48;5;236m<                                                                            [m[38;5;252m[48;5;237m[46;3H[38;5;101m[48;5;238m386 [m[38;5;252m[48;5;237m[38;5;168mexport[m[38;5;252m[48;5;237m PATH=[38;5;143m$PATH[m[38;5;252m[48;5;237m:[38;5;143m$GOROOT[m[38;5;252m[48;5;237m/bin:[38;5;143m$GOPATH[m[38;5;252m[48;5;237m/bin[38;5;59m<[m[38;5;252m[48;5;237m[46;49H[K[49;86H[30m[107m5[45;7H[?12l[?25h[?25l[m[38;5;252m[48;5;237m[51;92Hgk[45;7H[51;92H  [44;7H[44;3H[38;5;131m[48;5;236m384 [m[38;5;252m[48;5;237m[38;5;168m[48;5;236mexport[m[38;5;252m[48;5;237m[48;5;236m GOROOT=/usr/[m[38;5;252m[48;5;237m[38;5;179m[48;5;236mlocal[m[38;5;252m[48;5;237m[48;5;236m/opt/go/libexec<                                                        [m[38;5;252m[48;5;237m[45;3H[38;5;101m[48;5;238m385 [m[38;5;252m[48;5;237m[38;5;168mexport[m[38;5;252m[48;5;237m GOPATH=[38;5;143m$HOME[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[45;27H[K[49;86H[30m[107m4[14C8[44;7H[?12l[?25h[?25l[m[38;5;252m[48;5;237m[51;92Hgk[44;7H[51;92H  [43;7H[43;3H[38;5;131m[48;5;236m383 [m[38;5;252m[48;5;237m[48;5;236m<                                                                                               [m[38;5;252m[48;5;237m[44;3H[38;5;101m[48;5;238m384 [m[38;5;252m[48;5;237m[38;5;168mexport[m[38;5;252m[48;5;237m GOROOT=/usr/[38;5;179mlocal[m[38;5;252m[48;5;237m/opt/go/libexec[38;5;59m<[m[38;5;252m[48;5;237m[44;47H[K[49;86H[30m[107m3[9C0[43;7H[?12l[?25h[?25l[m[38;5;252m[48;5;237m[51;92Hgk[43;7H[51;92H  [42;7H[42;3H[38;5;131m[48;5;236m382 [m[38;5;252m[48;5;237m[38;5;168m[48;5;236msource[m[38;5;252m[48;5;237m[48;5;236m /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh<                        [m[38;5;252m[48;5;237m[43;3H[38;5;101m[48;5;238m383 [m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[43;8H[K[49;86H[30m[107m2[9C1[42;7H[?12l[?25h[?25l[m[38;5;252m[48;5;237m[51;92Hgk[42;7H[51;92H  [41;7H[41;3H[38;5;131m[48;5;236m381 [m[38;5;252m[48;5;237m[48;5;236m<                                                                                               [m[38;5;252m[48;5;237m[42;3H[38;5;101m[48;5;238m382 [m[38;5;252m[48;5;237m[38;5;168msource[m[38;5;252m[48;5;237m /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh[38;5;59m<[m[38;5;252m[48;5;237m[42;79H[K[49;86H[30m[107m1[9C0[41;7H[?12l[?25h[?25l[m[38;5;252m[48;5;237m[51;92Hgk[41;7H[51;92H  [40;7H[40;3H[38;5;131m[48;5;236m380 [m[38;5;252m[48;5;237m[48;5;236mgit [m[38;5;252m[48;5;237m[38;5;168m[48;5;236mclone[m[38;5;252m[48;5;237m[48;5;236m https://github.com/zsh-users/zsh-syntax-highlighting.git<                             [m[38;5;252m[48;5;237m[41;3H[38;5;101m[48;5;238m381 [m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[41;8H[K[49;86H[30m[107m0[9C1C  97[40;7H[?12l[?25h[?25l[m[38;5;252m[48;5;237m[51;92Hd[40;7H[?12l[?25h[?25l[51;92H [40;7H[?12l[?25h[?25l[51;92Hdd[40;7H[51;92H  [40;7H[1;20H[1m[38;5;187m[48;5;23m +[m[38;5;252m[48;5;237m[1C[7m[38;5;239m|[m[38;5;252m[48;5;237m[40;7H[48;5;236m<                                                                  [m[38;5;252m[48;5;237m[41;7H[38;5;168msource[m[38;5;252m[48;5;237m /Users/komei/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh[38;5;59m<[42;7H<[m[38;5;252m[48;5;237m[42;8H[K[43;7H[38;5;168mexport[m[38;5;252m[48;5;237m GOROOT=/usr/[38;5;179mlocal[m[38;5;252m[48;5;237m/opt/go/libexec[38;5;59m<[m[38;5;252m[48;5;237m[44;16HPATH=[38;5;143m$HOME[m[38;5;252m[48;5;237m[38;5;59m<[m[38;5;252m[48;5;237m[44;27H[K[45;14HPATH=[38;5;143m$PATH[m[38;5;252m[48;5;237m:[38;5;143m$GOROOT[m[38;5;252m[48;5;237m/bin:[38;5;143m$GOPATH[m[38;5;252m[48;5;237m/bin[38;5;59m<[46;7H<[m[38;5;252m[48;5;237m[46;8H[K[47;7H[38;5;168malias[m[38;5;252m[48;5;237m ctags=[38;5;109m"[m[38;5;252m[48;5;237m[38;5;143m`brew --prefix`[m[38;5;252m[48;5;237m[38;5;109m/bin/ctags"[m[38;5;252m[48;5;237m[38;5;59m<[48;3H~                                                                                                   [m[38;5;252m[48;5;237m[49;25H[30m[107m[+][63C7L,  0C  98[40;7H[?12l[?25h[?25l[m[38;5;252m[48;5;237m[51;92H^[[40;7H[?12l[?25h[?25l[51;92H  [40;7H[?12l[?25h[?25l[51;92H:[40;7H[50;1H[K[51;92H[K[50;1H:[?2004h[?12l[?25hwq[?25l[?2004l".zshrc" 387L, 10956C written
+
+[39;49m[?2004l[?1l>[?12l[?25h[?1049l[1m[7m%[27m[1m[0m                                                                                                      [0m[27m[24m[J[33m[7:35:30] [35mkomei@komei.local [1m[32m~/Desktop/dotfiles [37m%%%[0m[39m[49m [K[21C[31m✗[00m [32mmaster[00m:[33m1a56c62[00m - [32mdotfiles [33m[00m[50D[?1h=[?2004h[1m[31mg[0m[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m add [4m.[24m[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                      [0m[27m[24m[J[33m[7:35:33] [35mkomei@komei.local [1m[32m~/Desktop/dotfiles [37m%%%[0m[39m[49m [K[21C[33m✓[00m [32mmaster[00m:[33m1a56c62[00m - [32mdotfiles [33m[00m[50D[?1h=[?2004h[1m[31mg[0m[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m c[?1l>[?2004l
+[?2004h[?1049h[?1h=[?2004h[1;51r[?12h[?12l[27m[29m[m[H[2J[?25l[51;1H"~/Desktop/dotfiles/.git/COMMIT_EDITMSG" 11L, 289C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#[7Cmodified:   .vim/typescript
+#[7Cmodified:   .zshrc
+#
+[94m~                                                                                                     [13;1H~                                                                                                     [14;1H~                                                                                                     [15;1H~                                                                                                     [16;1H~                                                                                                     [17;1H~                                                                                                     [18;1H~                                                                                                     [19;1H~                                                                                                     [20;1H~                                                                                                     [21;1H~                                                                                                     [22;1H~                                                                                                     [23;1H~                                                                                                     [24;1H~                                                                                                     [25;1H~                                                                                                     [26;1H~                                                                                                     [27;1H~                                                                                                     [28;1H~                                                                                                     [29;1H~                                                                                                     [30;1H~                                                                                                     [31;1H~                                                                                                     [32;1H~                                                                                                     [33;1H~                                                                                                     [34;1H~                                                                                                     [35;1H~                                                                                                     [36;1H~                                                                                                     [37;1H~                                                                                                     [38;1H~                                                                                                     [39;1H~                                                                                                     [40;1H~                                                                                                     [41;1H~                                                                                                     [42;1H~                                                                                                     [43;1H~                                                                                                     [44;1H~                                                                                                     [45;1H~                                                                                                     [46;1H~                                                                                                     [47;1H~                                                                                                     [48;1H~                                                                                                     [49;1H~                                                                                                     [50;1H~                                                                                                     [2;1H[?25h[?12$p[?25l[m[51;1H[1m-- INSERT --[m[51;13H[K[2;1H[?25h[1;1H[?25lt[?25h[?25lw[?25h[?25le[?25h[?25la[?25h[?25lk[?25h[51;1H[K[1;5H[?25l[?25h[?25l[51;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?2004l"COMMIT_EDITMSG" 11L, 294C written
+[?2004l[?1l>[?25h[?1049l[master 6e4a47b] tweak
+ 2 files changed, 127 insertions(+), 2 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                      [0m[27m[24m[J[33m[7:35:40] [35mkomei@komei.local [1m[32m~/Desktop/dotfiles [37m%%%[0m[39m[49m [K[22C [32mmaster[00m:[33m6e4a47b[00m - [32mdotfiles [33m[00m[50D[?1h=[?2004h[1m[31mg[0m[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m push[?1l>[?2004l
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 7.14 KiB | 731.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:bamboo-c/dotfiles.git
+   1a56c62..6e4a47b  master -> master
+[1m[7m%[27m[1m[0m                                                                                                      [0m[27m[24m[J[33m[7:35:47] [35mkomei@komei.local [1m[32m~/Desktop/dotfiles [37m%%%[0m[39m[49m [K[22C [32mmaster[00m:[33m6e4a47b[00m - [32mdotfiles [33m[00m[50D[?1h=[?2004h[1m[31mg[0m[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m[1m[31mg[1m[31mi[0m[39m[39m [1m[31mg[0m[39m[0m[39m [0m[39m [32m.[39m[39m[4m.[4m.[24m[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                      [0m[27m[24m[J[33m[16:52:59] [35mkomei@komei.local [1m[32m~/Desktop [37m%%%[0m[39m[49m [K[32C[31m✗[00m [32mmaster[00m:[33m6e4a47b[00m - [32mkomei [33m[00m[58D[?1h=[?2004h[1m[31mg[0m[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m clone [7mgit clone git://github.com/digitaltoad/vim-pug.gi[7mt[27m[K[A[52C[27mg[27mi[27mt[27m [27mc[27ml[27mo[27mn[27me[27m [27mg[27mi[27mt[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27md[27mi[27mg[27mi[27mt[27ma[27ml[27mt[27mo[27ma[27md[27m/[27mv[27mi[27mm[27m-[27mp[27mu[27mg[27m.[27mg[27mit[?1l>[?2004l
+fatal: Too many arguments.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+[1m[7m%[27m[1m[0m                                                                                                      [0m[27m[24m[J[33m[16:53:01] [35mkomei@komei.local [1m[32m~/Desktop [37m%%%[0m[39m[49m [K[32C[31m✗[00m [32mmaster[00m:[33m6e4a47b[00m - [32mkomei [33m[00m[58D[?1h=[?2004h[32mgit[39m clone git clone git://github.com/digitaltoad/vim-pug.git[K[A[101C[P[49Ct [K[A[51C[P[50C[K[1B[K[A[51C[P[50C [51D[P[50C [51D[P[50C [51D[P[50C [51D[1m[31mg[1m[31mi[1m[31mt[1m[31mg[1m[31mi[1m[31mt[0m[39m[P[47C [51D[P[50C [51D[1m[31mg[0m[39m[P[50C [51D[0m[32mg[0m[32mi[0m[32mt[39m[P[47C [51D[?1l>[?2004l[1BCloning into 'vim-pug'...
+remote: Counting objects: 339, done.[K
+Receiving objects:   0% (1/339)   Receiving objects:   1% (4/339)   Receiving objects:   2% (7/339)   Receiving objects:   3% (11/339)   Receiving objects:   4% (14/339)   Receiving objects:   5% (17/339)   Receiving objects:   6% (21/339)   Receiving objects:   7% (24/339)   Receiving objects:   8% (28/339)   Receiving objects:   9% (31/339)   Receiving objects:  10% (34/339)   Receiving objects:  11% (38/339)   Receiving objects:  12% (41/339)   Receiving objects:  13% (45/339)   Receiving objects:  14% (48/339)   Receiving objects:  15% (51/339)   Receiving objects:  16% (55/339)   Receiving objects:  17% (58/339)   Receiving objects:  18% (62/339)   Receiving objects:  19% (65/339)   Receiving objects:  20% (68/339)   Receiving objects:  21% (72/339)   Receiving objects:  22% (75/339)   Receiving objects:  23% (78/339)   Receiving objects:  24% (82/339)   Receiving objects:  25% (85/339)   Receiving objects:  26% (89/339)   Receiving objects:  27% (92/339)   Receiving objects:  28% (95/339)   Receiving objects:  29% (99/339)   Receiving objects:  30% (102/339)   Receiving objects:  31% (106/339)   Receiving objects:  32% (109/339)   Receiving objects:  33% (112/339)   Receiving objects:  34% (116/339)   Receiving objects:  35% (119/339)   Receiving objects:  36% (123/339)   Receiving objects:  37% (126/339)   Receiving objects:  38% (129/339)   Receiving objects:  39% (133/339)   Receiving objects:  40% (136/339)   Receiving objects:  41% (139/339)   Receiving objects:  42% (143/339)   Receiving objects:  43% (146/339)   Receiving objects:  44% (150/339)   Receiving objects:  45% (153/339)   Receiving objects:  46% (156/339)   Receiving objects:  47% (160/339)   Receiving objects:  48% (163/339)   Receiving objects:  49% (167/339)   Receiving objects:  50% (170/339)   Receiving objects:  51% (173/339)   Receiving objects:  52% (177/339)   Receiving objects:  53% (180/339)   Receiving objects:  54% (184/339)   Receiving objects:  55% (187/339)   Receiving objects:  56% (190/339)   Receiving objects:  57% (194/339)   Receiving objects:  58% (197/339)   Receiving objects:  59% (201/339)   Receiving objects:  60% (204/339)   Receiving objects:  61% (207/339)   Receiving objects:  62% (211/339)   Receiving objects:  63% (214/339)   Receiving objects:  64% (217/339)   Receiving objects:  65% (221/339)   Receiving objects:  66% (224/339)   Receiving objects:  67% (228/339)   Receiving objects:  68% (231/339)   Receiving objects:  69% (234/339)   Receiving objects:  70% (238/339)   Receiving objects:  71% (241/339)   Receiving objects:  72% (245/339)   Receiving objects:  73% (248/339)   Receiving objects:  74% (251/339)   Receiving objects:  75% (255/339)   Receiving objects:  76% (258/339)   Receiving objects:  77% (262/339)   Receiving objects:  78% (265/339)   Receiving objects:  79% (268/339)   Receiving objects:  80% (272/339)   Receiving objects:  81% (275/339)   Receiving objects:  82% (278/339)   Receiving objects:  83% (282/339)   Receiving objects:  84% (285/339)   Receiving objects:  85% (289/339)   Receiving objects:  86% (292/339)   Receiving objects:  87% (295/339)   Receiving objects:  88% (299/339)   Receiving objects:  89% (302/339)   Receiving objects:  90% (306/339)   Receiving objects:  91% (309/339)   Receiving objects:  92% (312/339)   Receiving objects:  93% (316/339)   Receiving objects:  94% (319/339)   Receiving objects:  95% (323/339)   Receiving objects:  96% (326/339)   remote: Total 339 (delta 0), reused 0 (delta 0), pack-reused 338[K
+Receiving objects:  97% (329/339)   Receiving objects:  98% (333/339)   Receiving objects:  99% (336/339)   Receiving objects: 100% (339/339)   Receiving objects: 100% (339/339), 54.95 KiB | 138.00 KiB/s, done.
+Resolving deltas:   0% (0/128)   Resolving deltas:   9% (12/128)   Resolving deltas:  10% (13/128)   Resolving deltas:  11% (15/128)   Resolving deltas:  13% (17/128)   Resolving deltas:  18% (24/128)   Resolving deltas:  31% (40/128)   Resolving deltas:  32% (42/128)   Resolving deltas:  34% (44/128)   Resolving deltas:  35% (45/128)   Resolving deltas:  36% (47/128)   Resolving deltas:  38% (49/128)   Resolving deltas:  46% (60/128)   Resolving deltas:  48% (62/128)   Resolving deltas:  49% (63/128)   Resolving deltas:  50% (64/128)   Resolving deltas:  53% (68/128)   Resolving deltas:  57% (73/128)   Resolving deltas:  64% (82/128)   Resolving deltas:  65% (84/128)   Resolving deltas:  66% (85/128)   Resolving deltas:  67% (87/128)   Resolving deltas:  69% (89/128)   Resolving deltas:  72% (93/128)   Resolving deltas:  73% (94/128)   Resolving deltas:  74% (95/128)   Resolving deltas:  76% (98/128)   Resolving deltas:  77% (99/128)   Resolving deltas:  80% (103/128)   Resolving deltas:  81% (104/128)   Resolving deltas:  82% (106/128)   Resolving deltas:  83% (107/128)   Resolving deltas:  85% (109/128)   Resolving deltas:  86% (111/128)   Resolving deltas:  87% (112/128)   Resolving deltas:  89% (115/128)   Resolving deltas:  91% (117/128)   Resolving deltas:  92% (118/128)   Resolving deltas: 100% (128/128)   Resolving deltas: 100% (128/128), done.
+[1m[7m%[27m[1m[0m                                                                                                      [0m[27m[24m[J[33m[16:53:08] [35mkomei@komei.local [1m[32m~/Desktop [37m%%%[0m[39m[49m [K[32C[31m✗[00m [32mmaster[00m:[33m6e4a47b[00m - [32mkomei [33m[00m[58D[?1h=[?2004h[1m[31mg[0m[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m st[?1l>[?2004l
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mdeleted:    ../.atom/.gitignore[m
+	[31mdeleted:    ../.atom/config.cson[m
+	[31mdeleted:    ../.atom/github.cson[m
+	[31mdeleted:    ../.atom/init.coffee[m
+	[31mdeleted:    ../.atom/keymap.cson[m
+	[31mdeleted:    ../.atom/packages/README.md[m
+	[31mdeleted:    ../.atom/snippets.cson[m
+	[31mdeleted:    ../.atom/styles.less[m
+	[31mtypechange: ../.bash_profile[m
+	[31mtypechange: ../.bash_prompt[m
+	[31mtypechange: ../.bashrc[m
+	[31mmodified:   ../.config/configstore/update-notifier-npm.json[m
+	[31mdeleted:    ../.config/karabiner/assets/complex_modifications/1507986697.json[m
+	[31mmodified:   ../.config/karabiner/karabiner.json[m
+	[31mdeleted:    ../.config/memo/_posts/2017-10-15-test.md[m
+	[31mmodified:   ../.config/memo/config.toml[m
+	[31mtypechange: ../.ctags[m
+	[31mtypechange: ../.dir_colors[m
+	[31mtypechange: ../.eslintrc.js[m
+	[31mtypechange: ../.exports[m
+	[31mtypechange: ../.functions[m
+	[31mtypechange: ../.gdbinit[m
+	[31mtypechange: ../.gemrc[m
+	[31mtypechange: ../.gitconfig[m
+	[31mtypechange: ../.gitignore[m
+	[31mtypechange: ../.inputrc[m
+	[31mtypechange: ../.irbrc[m
+	[31mtypechange: ../.ptconfig.toml[m
+	[31mtypechange: ../.rdebugrc[m
+	[31mtypechange: ../.sbtconfig[m
+	[31mtypechange: ../.screenrc[m
+	[31mtypechange: ../.tigrc[m
+	[31mtypechange: ../.tmux.conf[m
+	[31mdeleted:    ../.tmux/bin/battery[m
+	[31mdeleted:    ../.tmux/bin/wifi[m
+	[31mdeleted:    ../.tmux/session[m
+	[31mtypechange: ../.travis.yml[m
+	[31mdeleted:    ../.vim/.gitignore[m
+	[31mdeleted:    ../.vim/after/ftplugin/go.vim[m
+	[31mdeleted:    ../.vim/after/ftplugin/javascript.vim[m
+	[31mdeleted:    ../.vim/after/ftplugin/markdown.vim[m
+	[31mdeleted:    ../.vim/after/ftplugin/terraform.vim[m
+	[31mdeleted:    ../.vim/after/ftplugin/vim.vim[m
+	[31mdeleted:    ../.vim/after/ftplugin/yaml.vim[m
+	[31mdeleted:    ../.vim/after/syntax/sh/awkembed.vim[m
+	[31mdeleted:    ../.vim/autoload/gocomplete.vim[m
+	[31mdeleted:    ../.vim/autoload/mru.vim[m
+	[31mdeleted:    ../.vim/autoload/plug.vim[m
+	[31mdeleted:    ../.vim/ftdetect/go.vim[m
+	[31mdeleted:    ../.vim/ftdetect/typescript.vim[m
+	[31mdeleted:    ../.vim/ftplugin/go/gocomplete.vim[m
+	[31mdeleted:    ../.vim/ftplugin/typescript.vim[m
+	[31mdeleted:    ../.vim/plugin/auto_chmod.vim[m
+	[31mdeleted:    ../.vim/plugin/cd_parent_dir.vim[m
+	[31mdeleted:    ../.vim/plugin/restore_curpos.vim[m
+	[31mdeleted:    ../.vim/plugin/win_tab_switcher.vim[m
+	[31mdeleted:    ../.vim/rc/app.vim[m
+	[31mdeleted:    ../.vim/rc/autoload/rc/buf.vim[m
+	[31mdeleted:    ../.vim/rc/autoload/rc/misc.vim[m
+	[31mdeleted:    ../.vim/rc/autoload/rc/plugins.vim[m
+	[31mdeleted:    ../.vim/rc/command.vim[m
+	[31mdeleted:    ../.vim/rc/config.vim[m
+	[31mdeleted:    ../.vim/rc/custom.vim[m
+	[31mdeleted:    ../.vim/rc/init.vim[m
+	[31mdeleted:    ../.vim/rc/mapping.vim[m
+	[31mdeleted:    ../.vim/rc/options.vim[m
+	[31mdeleted:    ../.vim/rc/plug.vim[m
+	[31mdeleted:    ../.vim/scripts/base.vim[m
+	[31mdeleted:    ../.vim/scripts/command.vim[m
+	[31mdeleted:    ../.vim/scripts/custom.vim[m
+	[31mdeleted:    ../.vim/scripts/dein.vim[m
+	[31mdeleted:    ../.vim/scripts/dein/dein.toml[m
+	[31mdeleted:    ../.vim/scripts/dein/dein_lazy.toml[m
+	[31mdeleted:    ../.vim/scripts/env.vim[m
+	[31mdeleted:    ../.vim/scripts/func.vim[m
+	[31mdeleted:    ../.vim/scripts/gui.vim[m
+	[31mdeleted:    ../.vim/scripts/init.vim[m
+	[31mdeleted:    ../.vim/scripts/map.vim[m
+	[31mdeleted:    ../.vim/scripts/option.vim[m
+	[31mdeleted:    ../.vim/scripts/plug.vim[m
+	[31mdeleted:    ../.vim/scripts/utils.vim[m
+	[31mdeleted:    ../.vim/scripts/view.vim[m
+	[31mdeleted:    ../.vim/syntax/go.vim[m
+	[31mdeleted:    ../.vim/syntax/godefstack.vim[m
+	[31mdeleted:    ../.vim/syntax/gohtmltmpl.vim[m
+	[31mdeleted:    ../.vim/syntax/gotexttmpl.vim[m
+	[31mdeleted:    ../.vim/syntax/typescript.vim[m
+	[31mdeleted:    ../.vim/syntax/vimgo.vim[m
+	[31mdeleted:    ../.vim/typescript[m
+	[31mdeleted:    ../.vim/vimrc[m
+	[31mdeleted:    ../.vim/zsh-syntax-highlighting[m
+	[31mtypechange: ../.vimrc[m
+	[31mtypechange: ../.vrapperrc[m
+	[31mtypechange: ../.yarnrc[m
+	[31mdeleted:    ../.zsh/.gitignore[m
+	[31mdeleted:    ../.zsh/10_utils.zsh[m
+	[31mdeleted:    ../.zsh/20_keybinds.zsh[m
+	[31mdeleted:    ../.zsh/30_aliases.zsh[m
+	[31mdeleted:    ../.zsh/50_setopt.zsh[m
+	[31mdeleted:    ../.zsh/70_misc.zsh[m
+	[31mdeleted:    ../.zsh/80_custom.zsh[m
+	[31mdeleted:    ../.zsh/99_deinit.zsh[m
+	[31mdeleted:    ../.zsh/Completion/_ack[m
+	[31mdeleted:    ../.zsh/Completion/_add-sshkey-remote[m
+	[31mdeleted:    ../.zsh/Completion/_ag[m
+	[31mdeleted:    ../.zsh/Completion/_battery[m
+	[31mdeleted:    ../.zsh/Completion/_crowi[m
+	[31mdeleted:    ../.zsh/Completion/_dbl[m
+	[31mdeleted:    ../.zsh/Completion/_deadlink[m
+	[31mdeleted:    ../.zsh/Completion/_docker[m
+	[31mdeleted:    ../.zsh/Completion/_dot[m
+	[31mdeleted:    ../.zsh/Completion/_fzf[m
+	[31mdeleted:    ../.zsh/Completion/_gcloud[m
+	[31mdeleted:    ../.zsh/Completion/_gist[m
+	[31mdeleted:    ../.zsh/Completion/_git[m
+	[31mdeleted:    ../.zsh/Completion/_git-ignore[m
+	[31mdeleted:    ../.zsh/Completion/_gomi[m
+	[31mdeleted:    ../.zsh/Completion/_gotcha[m
+	[31mdeleted:    ../.zsh/Completion/_history[m
+	[31mdeleted:    ../.zsh/Completion/_http_code[m
+	[31mdeleted:    ../.zsh/Completion/_jq[m
+	[31mdeleted:    ../.zsh/Completion/_marine[m
+	[31mdeleted:    ../.zsh/Completion/_mov2gif[m
+	[31mdeleted:    ../.zsh/Completion/_paramflags[m
+	[31mdeleted:    ../.zsh/Completion/_path[m
+	[31mdeleted:    ../.zsh/Completion/_pet[m
+	[31mdeleted:    ../.zsh/Completion/_richpager[m
+	[31mdeleted:    ../.zsh/Completion/_terraform[m
+	[31mdeleted:    ../.zsh/Completion/git-completion.bash[m
+	[31mdeleted:    ../.zsh/Makefile[m
+	[31mdeleted:    ../.zsh/zplug.zsh[m
+	[31mtypechange: ../.zshrc[m
+	[31mtypechange: ../README.md[m
+	[31mdeleted:    ../etc/fzf.1[m
+	[31mdeleted:    ../etc/install[m
+	[31mdeleted:    ../etc/scripts/cdhist.sh[m
+	[31mdeleted:    ../etc/scripts/encrypter.rb[m
+	[31mdeleted:    ../etc/scripts/gobundle.sh[m
+	[31mdeleted:    ../etc/scripts/gre.sh[m
+	[31mdeleted:    ../etc/scripts/initialize[m
+	[31mdeleted:    ../etc/scripts/marine[m
+	[31mdeleted:    ../etc/scripts/melt.rb[m
+	[31mdeleted:    ../etc/scripts/mov2gif.sh[m
+	[31mdeleted:    ../etc/scripts/os.sh[m
+	[31mdeleted:    ../etc/scripts/prompt.sh[m
+	[31mdeleted:    ../etc/scripts/pygments_style.py[m
+	[31mdeleted:    ../etc/scripts/rmr.sh[m
+	[31mdeleted:    ../etc/scripts/saferm.sh[m
+	[31mdeleted:    ../etc/scripts/tac.awk[m
+	[31mdeleted:    ../etc/scripts/tac.pl[m
+	[31mdeleted:    ../etc/scripts/tac.sh[m
+	[31mdeleted:    ../etc/scripts/tree.py[m
+	[31mdeleted:    ../etc/scripts/tree.sh[m
+	[31mdeleted:    ../etc/scripts/which.py[m
+	[31mdeleted:    ../etc/setup/01_solarized.sh[m
+	[31mdeleted:    ../etc/setup/05_brew.sh[m
+	[31mdeleted:    ../etc/setup/10_formula.sh[m
+	[31mdeleted:    ../etc/setup/12_gcloud.sh[m
+	[31mtypechange: ../import.scala[m
+	[31mtypechange: ../oneliners.txt[m
+	[31mmodified:   ../zsh-syntax-highlighting[m (new commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m../.Trash/[m
+	[31m../.atom[m
+	[31m../.backup/[m
+	[31m../.cache/[m
+	[31m../.config/karabiner/assets/complex_modifications/1509025935.json[m
+	[31m../.cups/[m
+	[31m../.gem/[m
+	[31m../.local/[m
+	[31m../.nodebrew/[m
+	[31m../.npm/[m
+	[31m../.rbenv/[m
+	[31m../.ssh/[m
+	[31m../.subversion/[m
+	[31m../.tmux[m
+	[31m../.vim[m
+	[31m../.vim_mru_files[m
+	[31m../.viminfo[m
+	[31m../.vscode/[m
+	[31m../.zcompdump[m
+	[31m../.zsh[m
+	[31m../.zsh_profile[m
+	[31m../Applications/[m
+	[31m./[m
+	[31m../Documents/[m
+	[31m../Downloads/[m
+	[31m../Library/[m
+	[31m../Movies/[m
+	[31m../Music/[m
+	[31m../Pictures/[m
+	[31m../Public/[m
+	[31m../bin/[m
+	[31m../etc[m
+	[31m../go/[m
+	[31m../pkg/[m
+	[31m../src/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                      [0m[27m[24m[J[33m[16:55:59] [35mkomei@komei.local [1m[32m~/Desktop [37m%%%[0m[39m[49m [K[32C[31m✗[00m [32mmaster[00m:[33m6e4a47b[00m - [32mkomei [33m[00m[58D[?1h=[?2004h[1m[31mg[0m[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m [1m[31mg[1m[31mi[0m[39m[39m [1m[31mg[0m[39m[0m[39m [0m[39m [1m[31m,[0m[39m[1m[31m,[1m[31m,[0m[39m[1m[31m,[0m[39m[0m[39m [0m[39m [32m.[39m[39m[4m.[4m.[24m[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                      [0m[27m[24m[J[33m[16:56:13] [35mkomei@komei.local [1m[32m~ [37m%%%[0m[39m[49m [K[40C[31m✗[00m [32mmaster[00m:[33m6e4a47b[00m - [32mkomei [33m[00m[66D[?1h=[?2004h[1m[31md[0m[39m[1m[31md[1m[31me[0m[39m[1m[31md[1m[31me[1m[31ms[0m[39m[1m[31ms[1m[31mj[0m[39m[0m[39md[0m[39me[0m[39ms[0m[39mdp
+Completing corrections
+desdp[27m  [27mdmesg[27m  [27mless[27m [27m  [27mmesg[27m [27m  [27mtest[27m [27m  [27myes[27m  [27m
+Completing original
+[Jdesj[27m[J[4A[0m[27m[24m[0m[39m[49m[35Cdesdp[K[35C[31m✗[00m [32mmaster[00m:[33m6e4a47b[00m - [32mkomei [33m[00m[0m[39m[49m[61D[1m[31md[1m[31me[1m[31ms[1m[31md[0m[39m [1m[31ms[0m[39m[0m[39m [1m[31ms[1m[31mk[0m[39m[0m[39m[4mD[0m[39m[4me[0m[39m[4ms[0m[39m[4mk[4mtop[1m[4m/[0m[24m[4mp[24m[0m[24m [?1l>[?2004l
+[J[1m[7m%[27m[1m[0m                                                                                                      [0m[27m[24m[J[33m[16:56:17] [35mkomei@komei.local [1m[32m~/Desktop [37m%%%[0m[39m[49m [K[32C[31m✗[00m [32mmaster[00m:[33m6e4a47b[00m - [32mkomei [33m[00m[58D[?1h=[?2004h[4md[24m[24m[33md[33mo[39m[1m[31md[1m[31mo[1m[31mr[0m[39m
