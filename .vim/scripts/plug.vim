@@ -93,6 +93,7 @@ if g:plug.ready() && g:env.vimrc.plugin_on
     Plug 'Shougo/vimproc.vim', {'do' : 'make'}
     Plug 'Quramy/tsuquyomi'
     Plug 'digitaltoad/vim-pug'
+    Plug 'posva/vim-vue'
 
     " Add plugins to &runtimepath
     call plug#end()
