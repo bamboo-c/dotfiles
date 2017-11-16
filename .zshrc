@@ -375,8 +375,8 @@ if [[ $LANG == "C"  || $LANG == "" ]]; then
     >&2 echo "$fg[red]The \$LANG variable is not set. This can cause a lot of problems.$reset_color"
 fi
 
+
 export PATH=$HOME/.nodebrew/current/bin:$PATH
-export PATH=/usr/local/opt/python/libexec/bin:/Users/komei/.nodebrew/current/bin:/Users/komei/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 

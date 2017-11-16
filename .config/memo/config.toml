@@ -1,4 +1,4 @@
-memodir = "/Users/komei/.config/memo/_posts"
+memodir = "~/Desktop/memo/_posts"
 editor = "/Applications/MacVim.app/Contents/MacOS/Vim"
 column = 20
 selectcmd = "peco"
