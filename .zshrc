@@ -385,3 +385,5 @@ export GOPATH=$HOME
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 alias ctags="`brew --prefix`/bin/ctags"
+
+export JAVA_HOME=`/usr/libexec/java_home`
