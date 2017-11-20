@@ -387,3 +387,8 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 alias ctags="`brew --prefix`/bin/ctags"
 
 export JAVA_HOME=`/usr/libexec/java_home`
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
