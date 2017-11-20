@@ -94,7 +94,6 @@ if g:plug.ready() && g:env.vimrc.plugin_on
     Plug 'Quramy/tsuquyomi'
     Plug 'digitaltoad/vim-pug'
     Plug 'posva/vim-vue'
-    Plug 'denote/memolist'
 
     " Add plugins to &runtimepath
     call plug#end()
